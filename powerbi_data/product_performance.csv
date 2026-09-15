@@ -1,0 +1,15 @@
+product_id,product_name,category_name,seller_name,units_sold,revenue,profit
+1,Wireless Headphones,Electronics,TechWorld India,10.0,24990.0,8990.0
+3,Mechanical Keyboard,Electronics,TechWorld India,7.0,24493.0,7693.0
+25,Smart Watch,Accessories,AccessoryWorld,4.0,15996.0,5196.0
+9,Running Shoes,Fashion,StyleHub,4.0,11996.0,4396.0
+8,Denim Jeans,Fashion,StyleHub,2.0,3598.0,1598.0
+4,Wireless Mouse,Electronics,TechWorld India,4.0,3596.0,1596.0
+18,Sunscreen SPF 50,Beauty,BeautyCare Store,4.0,2796.0,1396.0
+6,Men Cotton T-Shirt,Fashion,StyleHub,3.0,2397.0,1197.0
+2,Bluetooth Speaker,Electronics,TechWorld India,1.0,1999.0,799.0
+12,Table Lamp,Home & Kitchen,HomeNeeds,2.0,1998.0,898.0
+11,Electric Kettle,Home & Kitchen,HomeNeeds,1.0,1599.0,699.0
+26,Laptop Backpack,Accessories,AccessoryWorld,1.0,1499.0,649.0
+5,USB-C Charger,Electronics,TechWorld India,1.0,1299.0,549.0
+14,Atomic Habits,Books,BookMart,2.0,1198.0,598.0

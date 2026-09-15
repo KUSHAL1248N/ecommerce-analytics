@@ -1,0 +1,19 @@
+customer_id,customer_name,city,total_orders,lifetime_value
+1,Aarav Sharma,Kolkata,3,16294.0
+4,Sneha Sen,Kolkata,3,12496.0
+11,Aditya Bose,Kolkata,3,10496.0
+19,Sahil Agarwal,Hyderabad,2,6998.0
+15,Sourav Dutta,Kolkata,3,6595.0
+14,Tanya Malhotra,Delhi,2,6498.0
+6,Ananya Gupta,Bangalore,2,6297.0
+7,Rohan Mehta,Pune,2,5998.0
+12,Riya Chatterjee,Chennai,2,4897.0
+10,Neha Verma,Delhi,2,4598.0
+2,Priya Das,Mumbai,2,4498.0
+16,Meera Iyer,Bangalore,2,3498.0
+20,Moumita Basu,Kolkata,2,2798.0
+9,Vikram Singh,Jaipur,2,2598.0
+3,Rahul Roy,Delhi,1,1799.0
+18,Pooja Nair,Kochi,1,1598.0
+5,Arjun Patel,Ahmedabad,1,799.0
+17,Amit Kumar,Patna,1,699.0
