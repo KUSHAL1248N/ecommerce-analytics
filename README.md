@@ -145,9 +145,54 @@ These views are also used by the Python application and Power BI data pipeline.
 
 ## Python Application
 
-The project includes an interactive command-line analytics application.
+## Python Applications
 
-Run it using:
+This project includes a command-line analytics application and an interactive Streamlit dashboard.
+
+### 1. Install Dependencies
+
+Make sure Python and MySQL are installed. From the project root, install the required packages:
 
 ```bash
-py python_app/app.py
+python -m pip install mysql-connector-python python-dotenv pandas matplotlib streamlit
+```
+
+### 2. Configure the Database
+
+Create a local `.env` file in the project root using the environment variable names expected by `python_app/db_connection.py`.
+
+Set the database name to `ecommerce_analytics` and provide your own MySQL host, username, and password. Never commit `.env` or publish database credentials.
+
+Ensure the database schema and sample data have been imported before running either application.
+
+### 3. Run the Command-Line Application
+
+From the project root:
+
+```bash
+python python_app/app.py
+```
+
+### 4. Run the Streamlit Dashboard
+
+From the project root:
+
+```bash
+python -m streamlit run python_app/dashboard.py
+```
+
+Open the local URL displayed in the terminal.
+
+The dashboard provides business KPIs, date and order-status filters, charts, analytical tables, and CSV export options.
+
+## Data Validation
+
+The sample database contains 45 orders, including 36 delivered orders. Delivered-order revenue is ₹99,454, with an average delivered order value of ₹2,762.61.
+
+The database was checked for orphaned order items, orders without customers, and payments without orders. All three checks returned zero orphan records.
+
+## Security
+
+- Keep database credentials in the local `.env` file.
+- Do not commit `.env`, passwords, or other secrets to GitHub.
+- Use your own local MySQL credentials when setting up the project.
